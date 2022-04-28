@@ -1,0 +1,12 @@
+@media (min-width: 768px){
+    body {
+        background-image: url(../images/bg-top.svg) !important;
+        background-repeat: no-repeat !important;
+        background-position: 112% 0% !important;
+
+        .row{
+            width: 870px !important;
+            margin: auto !important;
+        }
+    }
+}

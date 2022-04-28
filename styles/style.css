@@ -1,0 +1,111 @@
+@media (min-width: 768px) {
+  body {
+    background-image: url(../images/bg-top.svg) !important;
+    background-repeat: no-repeat !important;
+    background-position: 112% 0% !important;
+  }
+  body .row {
+    width: 870px !important;
+    margin: auto !important;
+  }
+}
+
+body {
+  overflow-x: hidden;
+  background-image: url(../images/bg-top.svg);
+  background-repeat: no-repeat;
+  background-position: 285% -5%;
+}
+
+.card {
+  border: none;
+  -webkit-box-shadow: 0 5px 13px -7px black;
+          box-shadow: 0 5px 13px -7px black;
+}
+
+.card-body, li {
+  color: #494c5f !important;
+}
+
+.card-text {
+  font-size: 48px;
+}
+
+a {
+  background-image: -webkit-gradient(linear, left top, right top, from(#a3a8f0), to(#696fdd));
+  background-image: linear-gradient(to right, #a3a8f0, #696fdd);
+  border: none !important;
+}
+
+.card2 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#a3a8f0), to(#696fdd));
+  background-image: linear-gradient(to bottom, #a3a8f0, #696fdd);
+}
+
+.card2 .card-title {
+  color: #f6f6fe !important;
+}
+
+.card2 .card-text {
+  color: #f6f6fe !important;
+}
+
+.card2 li {
+  background-color: transparent;
+  color: #f6f6fe !important;
+}
+
+.card2 a {
+  color: #696fdd;
+  background-color: #f6f6fe;
+  background-image: none;
+}
+
+.form-check-input {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+#text0Alt, #text1Alt, #text2Alt {
+  top: 48px;
+  right: 41px;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+header h2 {
+  color: #494c5f;
+}
+
+header span {
+  color: #b3b5c6;
+}
+
+.btn0:hover, .btn2:hover {
+  background-color: #f6f6fe !important;
+  border: 1px solid #696fdd !important;
+  background-image: none !important;
+  color: #494c5f !important;
+}
+
+.btn1:hover {
+  background-color: transparent !important;
+  border: 1px solid #f6f6fe !important;
+  background-image: none !important;
+  color: #f6f6fe !important;
+}
+
+.middle {
+  -webkit-transform: scaleY(1.1) !important;
+          transform: scaleY(1.1) !important;
+}
+
+.bottom {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  bottom: 0;
+}
+/*# sourceMappingURL=style.css.map */

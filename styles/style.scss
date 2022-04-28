@@ -1,0 +1,101 @@
+@import '../styles/media';
+
+$color1: hsl(240, 78%, 98%);
+$color2: hsl(234, 14%, 74%);
+$color3: hsl(233, 13%, 49%);
+$color4: hsl(232, 13%, 33%);
+
+body{
+    overflow-x: hidden;
+    background-image: url(../images/bg-top.svg);
+    background-repeat: no-repeat;
+    background-position: 285% -5%;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 5px 13px -7px black;
+}
+.card-body, li{
+    color: $color4 !important;
+
+}
+.card-text{
+    font-size: 48px;
+}
+
+a {
+    background-image: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    border: none !important;
+
+}
+
+.card2{
+    background-image: linear-gradient(to bottom, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    .card-title{
+        color: $color1 !important;
+    }
+    .card-text{
+        color: $color1 !important;
+    }
+    li{
+        background-color: transparent;
+        color: $color1 !important;
+    }
+    a{
+        color: hsl(237, 63%, 64%);
+        background-color: $color1;
+        background-image: none;
+        
+    }
+}
+
+.form-check-input{
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+#text0Alt, #text1Alt, #text2Alt {
+    top: 48px;
+    right: 41px;
+
+}
+
+.hide{
+    visibility: hidden;
+}
+
+header{
+    h2{
+        color: $color4;
+    }
+
+    span {
+        color: $color2;
+    }
+}
+
+.btn0:hover , .btn2:hover {
+    background-color: $color1 !important;
+    border: 1px solid hsl(237, 63%, 64%) !important;
+    background-image: none !important;
+    color: $color4 !important;
+}
+
+.btn1:hover {
+    background-color: transparent !important;
+    border: 1px solid $color1 !important;
+    background-image: none !important;
+    color: $color1 !important;
+}
+
+.middle {
+    transform: scaleY(1.1) !important;
+}
+
+.bottom {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    bottom: 0;
+}
